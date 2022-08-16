@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculations</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <script>
+        function demo1(){
+        var a=prompt("Enetr First Number");
+        var b=prompt("Enetr Second Number");
+            if(a>b){
+                alert("A is Greater");
+            }
+            else{
+                alert("B is Greater");
+            }
+
+        }
+
+
+        function demo2(){
+            var r= prompt("radius of circle");
+            var area;
+            area=3.14*r*r;
+
+                alert("Area of circle:" +area);
+
+        }
+
+        function demo3(){
+            var a=prompt("Enetr First Number");
+            var b=prompt("Enetr Second Number");
+                if(a<b){
+                    alert("A is Smaller");
+                }
+                else{
+                    alert("B is Smaller");
+                }
+            }
+
+
+        function demo4(){
+            var a= prompt("Side value of Square");
+            var area;
+            area=a*a;
+
+            alert("Area of circle:" +area);
+
+            }
+
+
+            function demo5(){
+                var r= prompt("Radius of circle");
+                var area;
+                area=2*3.14*r;
+
+                    alert("Circumference of circle:" +area);
+
+            }
+    </script>
+</head>
+<body text-align="center" background-color="gold">
+    <h1>Calculations</h1>
+    <button type="text" onclick="demo1()">Greater Than</button>
+    <button type="text" onclick="demo2()">Area Of Circle</button>
+    <button type="text" onclick="demo3()">Smaller Than</button>
+    <button type="text" onclick="demo4()">Area Of Square</button>
+    <button type="text" onclick="demo5()">Circumference Of Circle</button>
+</body>
+</html> 
